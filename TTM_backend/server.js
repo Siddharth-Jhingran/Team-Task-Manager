@@ -14,7 +14,7 @@ const app = express();
 
 // CORS - allow frontend origins
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+  origin: "https://team-task-managing.vercel.app",
   credentials: true
 }));
 
